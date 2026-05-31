@@ -1,0 +1,15 @@
+.env
+*.env
+.venv/
+__pycache__/
+*.pyc
+logs/
+state/
+tmp/
+*.log
+secrets.*
+*secret*
+*SECRET*
+*webhook*
+*.bak
+

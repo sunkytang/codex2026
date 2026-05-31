@@ -1,0 +1,4 @@
+interface:
+  display_name: "TXJ Contract"
+  short_description: "Personal futures trading playbook and review workflow."
+  default_prompt: "Use txjcontract to analyze Binance USD-M futures opportunities, enforce our trading rules, and update the trade journal."

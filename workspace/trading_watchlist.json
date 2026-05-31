@@ -1,0 +1,45 @@
+{
+  "timezone_for_discussion": "Asia/Shanghai",
+  "exchange_time": "UTC",
+  "active_futures_watchlist": [
+    {
+      "label": "BTC",
+      "symbol": "BTCUSDT",
+      "status": "TRADING",
+      "role": "main_market"
+    },
+    {
+      "label": "HYPE",
+      "symbol": "HYPEUSDT",
+      "status": "TRADING",
+      "role": "priority_strength_watch"
+    },
+    {
+      "label": "DOGE",
+      "symbol": "DOGEUSDT",
+      "status": "TRADING",
+      "role": "meme_watch"
+    },
+    {
+      "label": "币安人生",
+      "symbol": "币安人生USDT",
+      "status": "TRADING",
+      "role": "high_risk_meme_watch",
+      "note": "Official Binance USD-M Futures symbol uses Chinese characters. Terminal rendering may appear garbled, but the API symbol is 币安人生USDT."
+    }
+  ],
+  "research_only": [],
+  "removed": [
+    {
+      "label": "ASTEROID",
+      "reason": "Not currently tradable as Binance USD-M Futures, so removed from the recurring futures monitor."
+    }
+  ],
+  "rules": [
+    "No new live trade without explicit user confirmation.",
+    "Prefer one active position at a time while account size is small.",
+    "Every live position must have a protective stop.",
+    "Use Beijing time in discussion; use exchange/API UTC time in code.",
+    "Do not monitor ASTEROID until Binance USD-M Futures support is verified."
+  ]
+}

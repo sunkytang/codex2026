@@ -1,0 +1,27 @@
+{
+  "mode": "paper",
+  "base_url": "https://fapi.binance.com",
+  "symbol": "HYPEUSDT",
+  "interval": "15m",
+  "trend_interval": "1h",
+  "lookback": 120,
+  "trend_lookback": 120,
+  "paper_balance_usdt": 100.0,
+  "leverage": 2,
+  "risk_per_trade_pct": 0.5,
+  "max_position_margin_pct": 20.0,
+  "stop_loss_pct": 1.0,
+  "take_profit_pct": 2.0,
+  "poll_seconds": 60,
+  "strategy": {
+    "fast_ema": 9,
+    "slow_ema": 21,
+    "trend_fast_ema": 20,
+    "trend_slow_ema": 50,
+    "rsi_period": 14,
+    "long_rsi_min": 42,
+    "long_rsi_max": 68,
+    "short_rsi_min": 32,
+    "short_rsi_max": 58
+  }
+}
