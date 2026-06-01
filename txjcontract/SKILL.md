@@ -101,6 +101,7 @@ Use these rules:
   - buying the middle of a range
   - buying after a fake breakout unless retest proves support
 - 2026-06-01 update: after HYPE spikes then pulls back, a quick reclaim is not enough by itself. If the entry is still near the upper half of the spike range, treat it as a late chase unless a full 5m structure has formed or price breaks the spike high and retests it. After a stop-out, wait for a deeper pullback near 15m EMA/structure support or a clean breakout-retest before re-entering.
+- 2026-06-01 update: when BTC is strong-down across multiple frames, HYPE repair-zone longs are downgraded even if HYPE remains relatively strong and taker flow briefly turns buy-heavy. Require either a 5m trend repair above the 15m EMA21 area, or a deeper structural pullback with clear absorption. Do not open a HYPE long only because price reclaims a nearby repair level while BTC is still cascading.
 
 Important learned levels from the current campaign:
 
